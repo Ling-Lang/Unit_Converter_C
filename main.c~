@@ -12,7 +12,7 @@
 #include <stdio.h>
 
 double	ft_c_to_f(double C);
-int	ft_manual_case(int choice);
+int		ft_manual_case(int choice);
 
 int	main(void)
 {	
