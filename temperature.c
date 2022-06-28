@@ -9,15 +9,17 @@
 /*   Updated: 2019/11/25 00:54:49 by Dylan            ###   ########.me       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <unistd.h>
 #include <stdio.h> 
+#include <math.h>
+#include <stdlib.h>
 
-double	ft_C_to_F(double C)
+double	ft_c_to_f(double C)
 {	
-	// Convert the temperature from Celsius to Fahrenheit and print it to  the console.
-	float x = 9.0000001/5;
-	double F = (C * x) + 32;
-	printf("%f \n", F);
-	return (F);
+	float	x;
+	float	f;
 
+	x = 1.8001;
+	f = (C * x) + 32;
+	printf("%0.01f \n", f);
+	return (f);
 }

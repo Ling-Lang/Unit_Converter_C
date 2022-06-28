@@ -11,9 +11,12 @@
 /* ************************************************************************** */
 #include <stdio.h>
 
-double	ft_C_to_F(double C);
+double	ft_c_to_f(double C);
+
 int	main(void)
 {	
-	ft_C_to_F(1);
+	double	c;
+	scanf("%lf", &c);
+	ft_c_to_f(c);
 	return (0);
 }
