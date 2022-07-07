@@ -6,22 +6,20 @@
 /*   By: dylan <kulkajens82@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2000/01/01 00:00:00 by Dylan             #+#    #+#             */
-/*   Updated: 2022/06/28 17:11:14 by dylan            ###   ########.fr       */
+/*   Updated: 2022/07/07 09:49:10 by dylan_u          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <stdio.h>
 
-double	ft_c_to_f(double C);
 int		ft_manual_case(int choice);
 
 int	main(void)
 {	
-	int		c;
 	double	choice;
 
+	printf("Choose what to do. \n");
+	printf("1) Temperature Converter \n");
 	scanf("%lf", &choice);
-	scanf("%lf", &c);
 	ft_manual_case(choice);
-	ft_c_to_f(c);
 	return (0);
 }
