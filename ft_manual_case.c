@@ -6,7 +6,7 @@
 /*   By: dylan </var/spool/mail/dylan>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/28 17:01:01 by dylan             #+#    #+#             */
-/*   Updated: 2022/06/28 17:11:04 by dylan            ###   ########.fr       */
+/*   Updated: 2022/07/07 09:08:03 by dylan_u          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ double	ft_manual_case(int choice)
 {
 	if (choice == 0)
 	{
-		printf("Hi \n");
+		printf("Hi Dylan \n");
 	}
 	return (0);
 }
