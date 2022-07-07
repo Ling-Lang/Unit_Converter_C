@@ -6,7 +6,7 @@
 /*   By: dylan_u <dylan_u@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/28 17:01:01 by dylan             #+#    #+#             */
-/*   Updated: 2022/07/07 10:47:08 by dylan_u          ###   ########.fr       */
+/*   Updated: 2022/07/07 15:05:00 by dylan_u          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,6 +54,6 @@ int	ft_manual_case2(void)
 
 	printf("Input your F wich will be converted \n");
 	scanf("%lf", &f);
-	printf("This are this much degrees in C \n");
+	printf("are this much in C\n");
 	ft_f_to_c(f);
 }
